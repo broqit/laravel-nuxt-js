@@ -1,6 +1,6 @@
 {
   "name": "laravel-nuxt",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "description": "Build a SPA with Laravel and Nuxt",
   "bin": {
     "laravel-nuxt": "./bin/laravel-nuxt.js",
@@ -19,16 +19,15 @@
     "release": "standard-version"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.3.1",
-    "@nuxtjs/proxy": "^1.2.4",
-    "chalk": "^2.4.1",
-    "commander": "^3.0.1",
-    "cross-spawn": "^7.0.0",
+    "@nuxtjs/proxy": "^2.1.0",
+    "chalk": "^5.0.1",
+    "commander": "^9.2.0",
+    "cross-spawn": "^7.0.3",
     "death": "^1.1.0",
-    "fs-extra": "^8.1.0",
-    "lodash": "^4.17.10",
+    "fs-extra": "^10.1.0",
+    "lodash": "^4.17.21",
     "npm-which": "^3.0.1",
-    "nuxt": "^2.9.2"
+    "nuxt": "^3.0.0-rc.2"
   },
   "repository": {
     "type": "git",
